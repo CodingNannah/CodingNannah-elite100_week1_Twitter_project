@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    --twitter-color: #50b7f5;
+    --twitter-background: #e6ecf0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 10px;
+}
+
+/* left sidebar */
+.left-sidebar {
+    border-right: 1px solid var(--twitter-background);
+    flex: 0.2;
+    min-width: 250px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sidebarContainer {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.fa-twitter {
+    padding: 20px;
+    color: var(--twitter-color);
+    font-size: 30px;
+}
+
+.material-symbols-sharp {
+    padding: 20px;
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 800,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+.material-symbols-outlined {
+    padding: 20px;
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+
+.sidebarContainer h2 {
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
+  }
+
+.sidebarContainer:hover {
+    background-color: var(--twitter-background);
+    border-radius: 30px;
+    color: var(--twitter-color);
+    transition: color 100ms ease-out;
+  }
+
+.sidebarTweet {
+    width: 100%;
+    background-color: var(--twitter-color);
+    border: none;
+    color: white;
+    font-weight: 800;
+    border-radius: 30px;
+    height: 30px;
+    margin-top: 20px;
+  }
+
+/* main - feed*/
+.feed {
+    flex: 0.5;
+    border-right: 1px solid var(--twitter-background);
+    min-width: fit-content;
+    overflow-y: scroll;
+}
+
+.feed_header {
+    /* stay at top while rest moves */
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 100;
+    border: 1px solid var(--twitter-background);
+    padding: 15px 20px;
+} 
+
+/* home */
+.feed_header h2 {
+    font-size: 15px;
+    font-weight: 900;
+}
+
+/* hide scroll bar */
+.feed::-webkit-scrollbar {
+    display: none;
+}
+
+.feed {
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+.tweetbox_info img {
+    
+}
+
+.tweetbox-icons {
+    color: var(--twitter-color);
+}
