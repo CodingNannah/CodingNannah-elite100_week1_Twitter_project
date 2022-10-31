@@ -117,10 +117,43 @@ body {
     scrollbar-width: none;
 }
 
+.tweetbox {
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--twitter-background);
+}
+
+.tweetbox_info {
+    display: flex;
+    padding: 15px;
+
+}
+
 .tweetbox_info img {
-    
+    border-radius: 50%;
+    height: 50px;
+    padding: 5px;
+}
+
+.tweetbox_info input {
+    flex: 1;
+    margin-left: 15px;
+    font-size: 20px;
+    border: none;
+    outline: none;
 }
 
 .tweetbox-icons {
     color: var(--twitter-color);
+}
+
+.tweetbox_button {
+    border: none;
+    background-color: var(--twitter-color);
+    color: white;
+    font-weight: 750;
+    height: 30px;
+    width: 70px;
+    border-radius: 30px;
+    margin-left: 75px;
+
 }
