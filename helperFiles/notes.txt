@@ -7,6 +7,9 @@ Twitter Color:
 --twitter-color: #50b7f5;
     OR rgb(80,183,245)
 
+Lorem:
+    number after it dictates how many words (Lorem5 = Lorem ipsum dolor sit amet.)
+
 Bootstrap HTML Styles:
     margins -
         mt = top
@@ -15,4 +18,6 @@ Bootstrap HTML Styles:
 
     resizing
         fs = font-size (font IS icon)
+
+    cdnjs easily connects icons to projects
 
