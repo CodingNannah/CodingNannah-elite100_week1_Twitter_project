@@ -196,40 +196,22 @@ body {
 }
 
 /* posts */
+.avatar img {
+    margin-top: 5px;
+    border-radius: 50%;
+    height: 30px;
+    padding-right: 10px;
+}
+
 .post-container {
     border-bottom: 1px solid var(--twitter-background);
-    padding: 10px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .post-header {
     display: flex;
-    align-items: flex-start;
-}
-
-/* .post_header {
-    flex: 1;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 10px;
-} */
-
-/* .post_id {
-    margin-top: 5px;
-    margin-bottom: 10px;
-    padding-left: 15px;
-    font-size: 15px;
-} */
-
-.avatar img {
-    margin-top: 5px;
-    border-radius: 50%;
-    height: 40px;
-    padding: 5px;
-}
-
-.post_check {
-    font-size: 20px;
-    color: var(--twitter-color);
 }
 
 .post_username {
@@ -240,8 +222,31 @@ body {
 
 .post-label {
     margin-top: 0px;
-    margin-bottom: 20px;
     padding: 0px;
+}
+
+.post-headerSp{
+    font-weight: 600;
+    font-size: 12px;
+    color: grey;
+}
+
+.post_pic {
+    border-radius: 20px;
+    width: 400px;
+    height: auto;
+    object-fit: contain;
+}
+
+#Baillie {
+    padding-left: 75px;
+    width: 500px;
+}
+
+.post_footer {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
 }
 
 .post_content::-webkit-scrollbar {
@@ -253,20 +258,6 @@ body {
     font-size: 14px;
     min-width: fit-content;
     overflow-x: scroll;
-    padding: 5px;
-}
-
-.post_body img {
-    border-radius: 10%;
-    width: 400px;
-    height: auto;
-    object-fit: contain;
-}
-
-.post_footer {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
 }
 
 /* hide scroll bar */
