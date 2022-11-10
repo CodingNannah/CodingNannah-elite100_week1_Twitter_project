@@ -70,29 +70,33 @@ body {
 
 .material-symbols-outlined {
     padding: 15px;
-    /* font-variation-settings:
+    font-variation-settings:
     'FILL' 1,
     'wght' 400,
     'GRAD' 0,
-    'opsz' 48 */
+    'opsz' 48
   }
 
-/* .left-btm-box {
-    clear: both;
+.left-btm-box {
     display: flex;
-    flex-direction: row;
-    align-content: flex-start;
-    justify-content: space-around;
 }
 
 #icon-btm {
     align-content: flex-start;
 }
 
-#text-btm {
-    align-content: flex-end;
-} */
+.text-btm {
+    display: flex;
+    flex-direction: column;
+}
 
+#btm-name {
+    flex-grow: 1;
+}
+
+#btm-username {
+    flex-grow: 1;
+}
 
 .sidebarContainer h2 {
     font-weight: 800;
@@ -145,6 +149,8 @@ body {
 .feed_header h2 {
     font-size: 15px;
     font-weight: 700;
+    display: flexbox;
+    justify-content:space-between;
 }
 
 .tweetbox {
