@@ -1,0 +1,18 @@
+HTML inline space break: &nbsp;
+
+Fun Placeholder:
+<img src="http://placekitten.com/40/40" alt="kitten placeholder">
+
+Twitter Color:
+--twitter-color: #50b7f5;
+    OR rgb(80,183,245)
+
+Bootstrap HTML Styles:
+    margins -
+        mt = top
+        my = top & bottom
+        mx = left & right
+
+    resizing
+        fs = font-size (font IS icon)
+
