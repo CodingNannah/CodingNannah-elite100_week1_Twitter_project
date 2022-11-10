@@ -15,7 +15,7 @@ body {
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0px 10px;
+    /* padding: 0px 10px; */
 }
 
 /* left sidebar */
@@ -23,7 +23,7 @@ body {
     border-right: 1px solid var(--twitter-background);
     flex: 0.2;
     min-width: 250px;
-    margin-top: 20px;
+    margin-top: 0px;
     padding-left: 20px;
     padding-right: 20px;
 }

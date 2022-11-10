@@ -24,3 +24,6 @@ Bootstrap HTML Styles:
 Special "verified" checkmark:
     only the outline here --> <i class="material-symbols-outlined post_check">verified</i>
     created various sizes with Twitter color here --> <img src="./images/verified24.png" alt="verified check">
+
+Tutorial:
+https://www.youtube.com/watch?v=TSsPAOmTFsM @ 32:04 Posts Styling
