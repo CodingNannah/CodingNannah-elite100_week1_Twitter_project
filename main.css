@@ -195,14 +195,14 @@ body {
     padding: 10px;
 }
 
-.posts_header {
+.post_header {
     flex: 1;
     flex-direction: row;
     align-items: flex-start;
     padding: 10px;
 }
 
-/* .posts_id {
+/* .post_id {
     margin-top: 5px;
     margin-bottom: 10px;
     padding-left: 15px;
@@ -216,30 +216,30 @@ body {
     padding: 5px;
 }
 
-/* .posts_header h3 {
+/* .post_header h3 {
    
 } */
 
-.posts_check {
+.post_check {
     font-size: 15px;
     color: var(--twitter-color);
 }
 
-.posts_username {
+.post_username {
     font-size: 15px;
     font-weight: 500;
     color: grey
 }
 
-/* .posts_body {
+/* .post_body {
     
 } */
 
-.posts_text::-webkit-scrollbar {
+.post_text::-webkit-scrollbar {
     display: none;
 }
 
-.posts_text{   
+.post_text{   
     margin-bottom: 10px;
     font-size: 15px;
     min-width: fit-content;
@@ -247,14 +247,14 @@ body {
     padding: 5px;
 }
 
-.posts_body img {
+.post_body img {
     border-radius: 20%;
     width: 400px;
     height: auto;
     object-fit: contain;
 }
 
-.posts_footer {
+.post_footer {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
